@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>批量搜索</title>
+<script>
+	function openallweb() 
+	{
+    var j = 0;
+	var timeout = document.getElementById("myInputtime").value;
+	var text = document.getElementById("myInput").value;
+	//需要同时签到的所有网站
+	var urlAll = ["https://www.52pojie.cn","https://www.filmaker.cn","https://www.cgmodel.com/users/index.html","https://tieba.baidu.com","https://bbs.binmt.cc/k_misign-sign.html","https://www.zhatv.cn"
+	];
+
+	function openTimer(nextIndex) {
+		//便利完成则退出循环,并关闭当前页,并取消关闭提示
+		if(nextIndex >= urlAll.length) {
+			window.opener = null;
+			//window.open("about:blank", "_self");
+			//window.close();
+			return;
+		};
+		var urls = new Array();
+		for(i = 0; i < urlAll.length; i++) {
+			urls[i] = urlAll[i];
+			urls[i] = urls[i].replace(/%s/g, text);//替换%s
+		}
+
+		//间隔时间（毫秒，1秒=1000毫秒）可以自行设置
+		var winObj = window.open(urls[j], '_blank');
+		setTimeout(function() {
+			openTimer(++j);
+			
+		}, timeout);
+	}
+	openTimer(0);
+  }
+
+  function openPersonalwebpage() 
+  {
+    var j = 0;
+	var timeout = document.getElementById("myInputtime").value;
+	var text = document.getElementById("myInput").value;
+	//打开个人网站
+	var urlAll = ["https://www.xzyoutube.com","https://www.vrmmodel.com","https://www.jybsf.com","https://www.weedcn.com","https://www.iyingmei.com","https://www.zwyss.com","https:/www.gameguardian.cn","https:/www.worldmap.top"
+	];
+
+	function openTimer(nextIndex) {
+		//便利完成则退出循环,并关闭当前页,并取消关闭提示
+		if(nextIndex >= urlAll.length) {
+			window.opener = null;
+			//window.open("about:blank", "_self");
+			//window.close();
+			return;
+		};
+		var urls = new Array();
+		for(i = 0; i < urlAll.length; i++) {
+			urls[i] = urlAll[i];
+			urls[i] = urls[i].replace(/%s/g, text);//替换%s
+		}
+
+		//间隔时间（毫秒，1秒=1000毫秒）可以自行设置
+		var winObj = window.open(urls[j], '_blank');
+		setTimeout(function() {
+			openTimer(++j);
+			
+		}, timeout);
+	}
+	openTimer(0);
+  }
+
+  function openWebse() 
+  {
+    var j = 0;
+	var timeout = document.getElementById("myInputtime").value;
+	var text = document.getElementById("myInput").value;
+	//需要打开的搜索引擎
+	var urlAll = ["https://www.bing.com/search?q=%s","https://www.google.com.hk/search?q=%s","https://www.baidu.com/s?wd=%s","http://www.zhihu.com/search?q=%s","https://yandex.com/search/?text=%s"];
+
+	function openTimer(nextIndex) {
+		//便利完成则退出循环,并关闭当前页,并取消关闭提示
+		if(nextIndex >= urlAll.length) {
+			window.opener = null;
+			//window.open("about:blank", "_self");
+			//window.close();
+			return;
+		};
+		var urls = new Array();
+		for(i = 0; i < urlAll.length; i++) {
+			urls[i] = urlAll[i];
+			urls[i] = urls[i].replace(/%s/g, text);//替换%s
+		}
+
+		//间隔时间（毫秒，1秒=1000毫秒）可以自行设置
+		var winObj = window.open(urls[j], '_blank');
+		setTimeout(function() {
+			openTimer(++j);
+			
+		}, timeout);
+	}
+	openTimer(0);
+  }
+
+  function openWebcxy() 
+  {
+    var j = 0;
+	var timeout = document.getElementById("myInputtime").value;
+	var text = document.getElementById("myInput").value;
+	//需要打开的程序员搜索
+	var urlAll = ["https://github.com/search?utf8=✓&q=%s","http://www.zhihu.com/search?q=%s","https://www.google.com.hk/search?q=%s","https://cn.bing.com/search?q=%s","https://www.bing.com/search?q=%s","https://cn.bing.com/academic/search?q=%s",
+	"https://stackoverflow.com/search?q=%s","https://juejin.im/search?query=%s&type=all","http://caniuse.com/#search=%s","http://www.runoob.com/?s=%s",	"https://hub.docker.com/search?q=%s&type=image"
+	];
+
+	function openTimer(nextIndex) {
+		//便利完成则退出循环,并关闭当前页,并取消关闭提示
+		if(nextIndex >= urlAll.length) {
+			window.opener = null;
+			//window.open("about:blank", "_self");
+			//window.close();
+			return;
+		};
+		var urls = new Array();
+		for(i = 0; i < urlAll.length; i++) {
+			urls[i] = urlAll[i];
+			urls[i] = urls[i].replace(/%s/g, text);//替换%s
+		}
+
+		//间隔时间（毫秒，1秒=1000毫秒）可以自行设置
+		var winObj = window.open(urls[j], '_blank');
+		setTimeout(function() {
+			openTimer(++j);
+			
+		}, timeout);
+	}
+	openTimer(0);
+  }
+
+  function openWebvideo() 
+  {
+    var j = 0;
+	var timeout = document.getElementById("myInputtime").value;
+	var text = document.getElementById("myInput").value;
+	//需要打开的视频搜索
+	var urlAll = ["https://www.youtube.com/results?search_query=%s","https://www.bilibili.com/search?keyword=%s","https://www.douyin.com/search/%s","https://www.kuaishou.com/search/video?searchKey=%s","https://www.acfun.cn/search?keyword=%s"];
+
+	function openTimer(nextIndex) {
+		//便利完成则退出循环,并关闭当前页,并取消关闭提示
+		if(nextIndex >= urlAll.length) {
+			window.opener = null;
+			//window.open("about:blank", "_self");
+			//window.close();
+			return;
+		};
+		var urls = new Array();
+		for(i = 0; i < urlAll.length; i++) {
+			urls[i] = urlAll[i];
+			urls[i] = urls[i].replace(/%s/g, text);//替换%s
+		}
+
+		//间隔时间（毫秒，1秒=1000毫秒）可以自行设置
+		var winObj = window.open(urls[j], '_blank');
+		setTimeout(function() {
+			openTimer(++j);
+			
+		}, timeout);
+	}
+	openTimer(0);
+  }
+
+
+  function openWebAI() 
+  {
+    var j = 0;
+	var timeout = document.getElementById("myInputtime").value;
+	var text = document.getElementById("myInput").value;
+	//需要打开的AI搜索
+	var urlAll = ["https://tongyi.aliyun.com/qianwen","https://zhida.zhihu.com","https://chatgpt.com"
+	];
+
+	function openTimer(nextIndex) {
+		//便利完成则退出循环,并关闭当前页,并取消关闭提示
+		if(nextIndex >= urlAll.length) {
+			window.opener = null;
+			//window.open("about:blank", "_self");
+			//window.close();
+			return;
+		};
+		var urls = new Array();
+		for(i = 0; i < urlAll.length; i++) {
+			urls[i] = urlAll[i];
+			urls[i] = urls[i].replace(/%s/g, text);//替换%s
+		}
+
+		//间隔时间（毫秒，1秒=1000毫秒）可以自行设置
+		var winObj = window.open(urls[j], '_blank');
+		setTimeout(function() {
+			openTimer(++j);
+			
+		}, timeout);
+	}
+	openTimer(0);
+  }
+
+</script>
+
+
+
+
+
+</head>
+<body>
+<h1>批量搜索：使用请关闭浏览器弹窗拦截</h1>
+
+
+
+<button onclick="openallweb()">一键签到</button>&nbsp<button onclick="openPersonalwebpage()">个人网站</button>&nbsp<button onclick="openWebAI()">AI</button>
+<p>
+	网页打开间隔时间毫秒
+	<input type="text" value="3" id="myInputtime">
+</p>
+	<input type="text" value="内容" id="myInput">
+	<button onclick="openWebse()">搜索</button>
+	<button onclick="openWebcxy()">程序员</button>
+	<button onclick="openWebvideo()">视频</button>
+	
+</body>
+</html>
+
