@@ -14,7 +14,7 @@
 
 <a href="https://www.52pojie.cn/home.php?mod=space&uid=750418" target="_blank">吾爱破解-大毛孩</a>
 <a href="https://github.com/nihongvfx/OneClickMultiPage/tree/main" target="_blank">Github源码</a>
-<a href="https://www.jybsf.com/" target="_blank">自用网站效果展示</a>
+<a href="https://www.jybsf.com/" target="_blank">网站效果展示</a>
 
 
 
@@ -251,7 +251,7 @@
     <p>版权所有 &copy; 2025
         <a href="https://www.52pojie.cn/home.php?mod=space&uid=750418" target="_blank">吾爱破解-大毛孩</a>
         <a href="https://github.com/nihongvfx/OneClickMultiPage/tree/main" target="_blank">Github源码</a>
-        <a href="https://www.jybsf.com/" target="_blank">自用网站效果展示</a>
+        <a href="https://www.jybsf.com/" target="_blank">网站效果展示</a>
     所有人免费使用
     </p>
 	
