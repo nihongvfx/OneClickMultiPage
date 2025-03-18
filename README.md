@@ -29,7 +29,7 @@
 <script>
 	function openallweb() 
 	{
-    var j = 0;
+	var j = 0;
 	var timeout = document.getElementById("myInputtime").value;
 	var text = document.getElementById("myInput").value;
 	//需要同时签到的所有网站
