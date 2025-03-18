@@ -12,7 +12,7 @@
 
 ### 使用请关闭浏览器弹窗拦截，否则打开一个网页以后就停了
 
-<a href="[https://www.52pojie.cn/home.php?mod=space&uid=750418](https://www.52pojie.cn/forum.php?mod=viewthread&tid=2015918&page=1#pid52644402)" target="_blank">吾爱破解</a>
+<a href="https://www.52pojie.cn/forum.php?mod=viewthread&tid=2015918&page=1&extra=#pid52644377" target="_blank">吾爱破解</a>
 <a href="https://github.com/nihongvfx/OneClickMultiPage/tree/main" target="_blank">Github源码</a>
 <a href="https://www.jybsf.com/" target="_blank">网站效果展示</a>
 
