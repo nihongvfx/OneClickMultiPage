@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
-<title>批量搜索</title>
+<title>批量搜索OneClickMultiPage</title>
 <script>
 	function openallweb() 
 	{
@@ -108,8 +108,7 @@
 	var timeout = document.getElementById("myInputtime").value;
 	var text = document.getElementById("myInput").value;
 	//需要打开的程序员搜索
-	var urlAll = ["https://github.com/search?utf8=✓&q=%s","http://www.zhihu.com/search?q=%s","https://stackoverflow.com/search?q=%s","https://juejin.im/search?query=%s&type=all","http://caniuse.com/#search=%s","http://www.runoob.com/?s=%s","https://hub.docker.com/search?q=%s&type=image"
-	];
+	var urlAll = ["https://github.com/search?utf8=✓&q=%s","http://www.zhihu.com/search?q=%s"];
 
 	function openTimer(nextIndex) {
 		//便利完成则退出循环,并关闭当前页,并取消关闭提示
@@ -141,7 +140,7 @@
 	var timeout = document.getElementById("myInputtime").value;
 	var text = document.getElementById("myInput").value;
 	//需要打开的视频搜索
-	var urlAll = ["https://www.youtube.com/results?search_query=%s","https://www.bilibili.com/search?keyword=%s","https://www.douyin.com/search/%s","https://www.kuaishou.com/search/video?searchKey=%s","https://www.acfun.cn/search?keyword=%s"];
+	var urlAll = ["https://www.bilibili.com/search?keyword=%s","https://www.douyin.com/search/%s"];
 
 	function openTimer(nextIndex) {
 		//便利完成则退出循环,并关闭当前页,并取消关闭提示
@@ -174,8 +173,7 @@
 	var timeout = document.getElementById("myInputtime").value;
 	var text = document.getElementById("myInput").value;
 	//需要打开的AI搜索
-	var urlAll = ["https://tongyi.aliyun.com/qianwen","https://chat.deepseek.com/","https://zhida.zhihu.com","https://chatgpt.com"
-	];
+	var urlAll = ["https://tongyi.aliyun.com/qianwen","https://chat.deepseek.com/"];
 
 	function openTimer(nextIndex) {
 		//便利完成则退出循环,并关闭当前页,并取消关闭提示
@@ -228,7 +226,7 @@
     <p>版权所有 &copy; 2025
         <a href="https://www.52pojie.cn/home.php?mod=space&uid=750418" target="_blank">吾爱破解-大毛孩</a>
         <a href="https://github.com/nihongvfx/OneClickMultiPage/tree/main" target="_blank">Github源码</a>
-        <a href="https://www.jybsf.com/" target="_blank">自用网站效果展示</a>
+        <a href="https://www.jybsf.com/" target="_blank">网站效果展示</a>
     所有人免费使用
     </p>
 	
