@@ -20,8 +20,7 @@ Search for the code 'var urlAll = [' to see the default website.
 
 <a href="https://www.jybsf.com/" target="_blank">网站效果展示Website effect Display</a>
 
-20250318发布
-20250917美化UI
+
 
 ### 示例网站HTML
 ```html
@@ -190,7 +189,7 @@ Search for the code 'var urlAll = [' to see the default website.
 	var timeout = document.getElementById("myInputtime").value;
 	var text = document.getElementById("myInput").value;
 	//打开个人网站
-	var urlAll = ["https://www.个人网站1.com","https:/www.个人网站2.cn","https:/www.个人网站3.top"
+	var urlAll = ["https://www.01.com","https:/www.02.cn","https:/www.03.top"
 	];
 
 	function openTimer(nextIndex) {
@@ -336,13 +335,13 @@ Search for the code 'var urlAll = [' to see the default website.
         <p class="note">使用前请关闭浏览器弹窗拦截！</p>
         
         <div class="btn-group">
-            <button onclick="openallweb()">一键签到</button>
+            <button onclick="openallweb()">批量签到</button>
             <button onclick="openPersonalwebpage()">个人网站</button>
             <button onclick="openWebAI()">AI工具</button>
         </div>
         
         <div class="input-group">
-            <p>网页打开间隔时间(毫秒)
+            <p>网页打开间隔时间(毫秒ms)
             <input type="text" value="1" id="myInputtime">
             </p>
 
@@ -350,23 +349,23 @@ Search for the code 'var urlAll = [' to see the default website.
             <input type="text" value="请替换搜索内容" id="myInput">
             
             <div class="btn-group">
-                <button onclick="openWebse()">搜索引擎一键搜索</button>
-                <button onclick="openWebcxy()">程序论坛一键搜索</button>
-                <button onclick="openWebvideo()">视频网站一键搜索</button>
+                <button onclick="openWebse()">批量搜索引擎</button>
+                <button onclick="openWebcxy()">批量程序论坛</button>
+                <button onclick="openWebvideo()">批量视频网站</button>
             </div>
         </div>
         
         <footer>
-            <p>版权所有 &copy; 2025/09/17
-                <a href="https://www.52pojie.cn/forum.php?mod=viewthread&tid=2015918&page=1&extra=#pid52644377" target="_blank">吾爱破解-大毛孩</a>
+            <p>版权所有 &copy; 2026/01/13
+                <a href="https://www.52pojie.cn/forum.php?mod=viewthread&tid=2015918&page=1&extra=#pid52644377" target="_blank">吾爱破解</a>
                 <a href="https://github.com/nihongvfx/OneClickMultiPage/tree/main" target="_blank">Github源码</a>
-                <a href="https://www.jybsf.com/" target="_blank">网站效果展示</a>
-            所有人免费使用
+                <a href="https://www.jybsf.com" target="_blank">网站效果展示</a>
+                <a href="https://www.jybsf.com/pngico" target="_blank">文字转PNG和ICO</a>
+                <a href="https://www.jybsf.com/ps" target="_blank">实际尺寸转PS像素计算器</a>
             </p>
-        </footer>
+        <footer>
     </div>
 </body>
 </html>
-
 ```
 
